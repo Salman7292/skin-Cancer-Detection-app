@@ -844,7 +844,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # Sidebar configuration
 with st.sidebar:
     # Display logo image
-    st.image("logo4.png", use_column_width=True)
+    st.image("Logo4.png", use_column_width=True)
 
     # Adding a custom style with HTML and CSS for sidebar
     st.markdown("""
