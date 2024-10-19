@@ -1,6 +1,6 @@
 requests
 streamlit
-numpy>=1.21,<1.24
+numpy
 matplotlib
 pillow
 streamlit-option-menu
