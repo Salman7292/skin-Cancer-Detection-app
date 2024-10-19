@@ -7,8 +7,8 @@ streamlit-option-menu
 opencv-python
 pandas
 jsonlib-python3
-tensorflow>=2.6
+base64
+tensorflow
 plotly
 google-generativeai
 ipython
-setuptools  # Added to resolve distutils issue
