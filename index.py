@@ -1313,7 +1313,7 @@ elif selections=="About Us":
 
         
     with Salman:
-        st.image("Salman.png",use_column_width=True)
+        st.image("salman.png",use_column_width=True)
   
         st.markdown(
         """
