@@ -6,26 +6,19 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from streamlit_option_menu import option_menu
 import matplotlib.image as mpimg
-
 import pandas as pd
 import json
 import base64
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet import preprocess_input
-import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objs as go
 import plotly.express as px
 import pathlib
 import textwrap
-
 import google.generativeai as genai
-
 from IPython.display import display
 from IPython.display import Markdown
-
-
-
 import pickle
 
 
