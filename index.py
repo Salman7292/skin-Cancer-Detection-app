@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from streamlit_option_menu import option_menu
 import matplotlib.image as mpimg
-import os
-import cv2
+
 import pandas as pd
 import json
 import base64
@@ -149,7 +148,7 @@ def generate_skin_cancer_info(skin_condition_label):
 
 
 
-from PIL import Image
+
 
 # Assuming you have class labels in order (you can map these indices to actual labels)
 class_labels = ['actinic keratosis', 'basal cell carcinoma', 'dermatofibroma', 'melanoma', 'nevus', 'pigmented benign keratosis', 'seborrheic keratosis', 'squamous cell carcinoma', 'vascular lesion']
