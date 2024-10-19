@@ -1,0 +1,14 @@
+requests
+streamlit
+numpy
+matplotlib
+pillow
+streamlit-option-menu
+opencv-python
+pandas
+jsonlib-python3
+base64
+tensorflow
+plotly
+google-generativeai
+ipython
