@@ -631,6 +631,146 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# Define CSS styles with media queries
+container_css = """
+<style>
+/* Base container style */
+.bmiresult {
+    font-family: Arial, sans-serif;
+    background-color: #021531;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 465px;
+    /* HEIGHT: 328PX; */
+    margin: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 606px) {
+    .bmiresult {
+        
+        padding: 10px;
+        width: 400px;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 509px) {
+    .bmiresult {
+       
+        padding: 5px;
+        width: 351px;
+    }
+}
+
+
+@media (max-width: 456px) {
+.bmiresult {
+   
+    padding: 5px;
+    width: 300px;
+}
+    .bmiresult h3 {
+    margin: 0;
+    color: #07d6ef;
+    font-size: 1em;
+}
+}
+
+
+@media (max-width: 409px) {
+.bmiresult {
+    
+    padding: 3px;
+    width: 259px;
+}
+    .bmiresult h3 {
+    margin: 0;
+    color: #07d6ef;
+    font-size: 1em;
+}
+
+h5 {
+    font-family: "math", sans-serif;
+    font-weight: 600;
+    color: rgb(255 255 255 / 72%);
+    padding: 0px 0px 1rem;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+}
+
+
+@media (max-width: 359px) {
+.bmiresult {
+    
+    padding: 3px;
+    width: 226px;
+}
+    .bmiresult h3 {
+    margin: 0;
+    color: #07d6ef;
+    font-size: 1em;
+}
+
+h5 {
+    font-family: "math", sans-serif;
+    font-weight: 600;
+    color: rgb(255 255 255 / 72%);
+    padding: 0px 0px 1rem;
+    margin: 0px;
+    font-size: 9px;
+    line-height: 1.2;
+}
+
+}
+
+
+
+/* Media query for even smaller screens */
+@media (max-width: 959px) {
+    .bmiresult {
+       
+        padding: 5px;
+        width: 351px;
+    }
+}
+
+</style>
+"""
+
+# Inject the CSS into Streamlit app
+st.markdown(container_css, unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # CSS styling for the Streamlit app
 page_bg_img = f"""
 <style>
