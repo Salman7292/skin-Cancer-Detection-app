@@ -9,4 +9,4 @@ tensorflow
 google-generativeai
 ipython
 plotly
-base64
+
