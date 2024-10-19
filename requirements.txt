@@ -1,13 +1,14 @@
 requests
 streamlit
-numpy>=1.21,<1.24  # Ensures compatibility with Python 3.9
+numpy>=1.21,<1.24
 matplotlib
 pillow
 streamlit-option-menu
 opencv-python
 pandas
 jsonlib-python3
-tensorflow>=2.6  # TensorFlow works well with Python 3.9+ starting from this version
+tensorflow>=2.6
 plotly
 google-generativeai
 ipython
+setuptools  # Added to resolve distutils issue
