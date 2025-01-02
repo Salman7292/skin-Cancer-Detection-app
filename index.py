@@ -985,7 +985,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 with st.sidebar:
     # Display logo image
    
-    st.image("Logo4.png", use_column_width=True)
+    st.image("Logo4.png", use_container_width=True)
 
     # Adding a custom style with HTML and CSS for sidebar
     st.markdown("""
@@ -1442,7 +1442,7 @@ elif selections=="About Us":
 
 
     with Mohib:
-        st.image("mohib2 .png",use_column_width=True)
+        st.image("mohib2 .png",use_container_width=True)
   
         st.markdown(
         """
@@ -1453,7 +1453,7 @@ elif selections=="About Us":
 
         
     with Salman:
-        st.image("salman.png",use_column_width=True)
+        st.image("salman.png",use_container_width=True)
   
         st.markdown(
         """
@@ -1463,7 +1463,7 @@ elif selections=="About Us":
     ) 
     
     # with Adnan:
-    #     st.image("salman.png",use_column_width=True)
+    #     st.image("salman.png",use_container_width=True)
   
     #     st.markdown(
     #     """
@@ -1480,7 +1480,7 @@ elif selections=="About Us":
     with Salman:
         image_Section,Title=st.columns(2)
         with image_Section:
-            st.image("salman3.png",use_column_width=True)
+            st.image("salman3.png",use_container_width=True)
 
         with Title:
             st.title(" ")
@@ -1526,7 +1526,7 @@ elif selections=="About Us":
     with Mohib:
         image_Section,Title=st.columns(2)
         with image_Section:
-            st.image("m.png",use_column_width=True)
+            st.image("m.png",use_container_width=True)
 
         with Title:
             st.title(" ")
